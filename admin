@@ -1,0 +1,77 @@
+        <!-- กล่องสถิติ 3 สี -->
+        <div class="row text-white mb-4">
+            <div class="col-md-4 mb-3">
+                <div class="p-3 bg-info rounded shadow-sm">
+                    <h3>3</h3>
+                    <p class="mb-0">Users All</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="p-3 bg-success rounded shadow-sm">
+                    <h3>2</h3>
+                    <p class="mb-0">admin All</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="p-3 bg-warning text-dark rounded shadow-sm">
+                    <h3>1</h3>
+                    <p class="mb-0">Super Admins All</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- ตารางแสดงรายชื่อ -->
+        <div class="card shadow-sm mb-4">
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-bordered table-striped align-middle">
+                        <thead class="table-light">
+                            <tr>
+                                <th>ID.</th>
+                                <th>Username</th>
+                                <th>FirstName</th>
+                                <th>LastName</th>
+                                <th>Permission</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>noey</td>
+                                <td>พิมมาดา</td>
+                                <td>เที่ยงสั้น</td>
+                                <td><span class="badge bg-warning text-dark">super admin</span></td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>pimmada</td>
+                                <td>พิมมาดา</td>
+                                <td>เที่ยงสั้น</td>
+                                <td><span class="badge bg-primary">admin</span></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>test</td>
+                                <td>ทดสอบ</td>
+                                <td>ระบบ</td>
+                                <td><span class="badge bg-primary">admin</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- ปุ่มออกจากระบบ -->
+        <div class="mb-5">
+            <a href="login.php" class="btn btn-danger">ออกจากระบบ (Logout)</a>
+        </div>
+
+        <!-- Footer -->
+        <footer class="text-center text-muted mb-4">
+            <p>© 2026 พิมพ์มาดา เที่ยงสั้น. All rights reserved.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
